@@ -2,7 +2,6 @@
 
 .item-list-container {
     max-width: 1280px;
-    height: 100vh;
 
     > div {
         @include flexbox;
@@ -13,6 +12,8 @@
     .buy-button {
         position: fixed;
         bottom: 0;
+        left: 0;
+        right: 0;
         width: 100%;
         height: 50px;
         background-color: #17a1ff;
