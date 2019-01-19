@@ -21,12 +21,12 @@
                 background-color: black;
                 color: white;
                 display: inline-block;
-                width: $s8;
-                height: $s8;
-                padding: 3px;
-                font-size: 4px;
+                width: $base-font-color-sm;
+                height: $base-font-color-sm;
+                padding: $s4 $s8;
+                font-size: $base-font-color-sm;
                 position: absolute;
-                top: $s16;
+                top: $s12;
             }
         }
     }
